@@ -1,0 +1,22 @@
+1650355930906	geckodriver	INFO	geckodriver 0.21.0
+1650355930913	geckodriver	INFO	Listening on 127.0.0.1:56488
+1650355931593	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/k1/4s_jdx4513v_7xd515s7z83c0000gn/T/rust_mozprofile.yf6seWKrG4Rb"
+1650355932639	Marionette	INFO	Marionette enabled
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1650355935391	Marionette	INFO	Listening on port 56499
+1650355935480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650355941955	Marionette	INFO	Stopped listening on port 56499
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1650355982314	geckodriver	INFO	geckodriver 0.21.0
+1650355982324	geckodriver	INFO	Listening on 127.0.0.1:56577
+1650355983354	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/k1/4s_jdx4513v_7xd515s7z83c0000gn/T/rust_mozprofile.7q5qu0UNSAsK"
+1650355984324	Marionette	INFO	Marionette enabled
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1650355987511	Marionette	INFO	Listening on port 56588
+1650355987701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650356046715	Marionette	INFO	Stopped listening on port 56588
