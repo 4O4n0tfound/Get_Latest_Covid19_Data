@@ -19,6 +19,9 @@ class window_control():
     def maximize_window(self):
         driver.maximize_window()
 
+    def minimize_window(self):
+        driver.minimize_window()
+
 
 
 

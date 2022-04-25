@@ -9,14 +9,15 @@ url = 'https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_aladin_
 
 
 if __name__ == '__main__':
+
     driver.implicitly_wait(10)
     # 打开浏览器指定url
     WC = window_control(url)
     WC.open_window()
-    #WC.maximize_window(
+    #time.sleep(30)
+    WC.minimize_window()
     count_covid_num()
     WC.close_window()
-
 
 
 
